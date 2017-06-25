@@ -59,7 +59,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<!-- /.header button -->
 					</br>
 					<div class="head-btn wow fadeInLeft">
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		<a href="#subscribe" class="btn-default">点赞</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		<a href="#subscribe" class="btn-default">了解我们</a>
 					</div>
 				</div> 
 				<!-- /.phone image -->
@@ -74,13 +74,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	    	<img src="img/b10.jpg"  width="100px"  height="100px"  class="img-circle" alt="...">
 	        </div>
 			  <form>
-	<input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >
-    <input type="password" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+	  <input type="text" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" >
+      <input type="password" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
 					
 			</form>
-	<div class="signin">
-		<input type="submit" value="Login" >
-	</div>
+        <a href="#" class="btn btn-primary">登录</a>
+        <a href="#" class="btn btn-primary">注册</a>
 </div>
  
 				</div>
